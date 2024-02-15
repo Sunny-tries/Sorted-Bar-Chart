@@ -58,7 +58,7 @@ int main() {
     for (int i = 0; i < 6; i++) {
         cout << "Integer #" << i << ": ";
         cin >> height[i];
-        cout << endl; //Need this line in order to print correctly for auto-grading
+        cout << endl;
         while (height[i] < 0) {
             cout << "Try again. Value must be 0 or greater. ";
             cin >> height[i];
@@ -69,7 +69,7 @@ int main() {
     for (int i = 0; i < 6; i++) {
         cout << "Character #" << i << ": ";
         cin >> chars[i];
-        cout << endl; //Need this line in order to print correctly for auto-grading        
+        cout << endl;      
     }
 
     int maxHeight = getMax(height, 6);
